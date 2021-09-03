@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/stilos.css">
+    <title>Document</title>
+</head>
+
+<body class="hidden">
+
+    <!--PRELOADES START-->
+    <div class="preloader">
+        <div class="lds-dual-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </div>
+    <!--PRELOADES END-->
+    <!--header start-->
+    <header class="header ">
+        <div class="container">
+            <div class="row-nav">
+                <div class="logo">
+                    <a href="#home"><i class="fas fa-utensils"></i><h2>HotFood</h2></a>
+                </div>
+                <button type="button" class="nav-toggler">
+                    <span> </span>
+                </button>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-item"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a href="#our-menu">Our Menu</a></li>
+                        <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a href="#team">Team</a></li>
+                        <li class="nav-item"><a href="#footer">Footer</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <!--header end-->
+
+    <main>
+        <!--section home start-->
+        <section class="home-section min-vh-100 " id="home">
+            <div class="home-bg-img"></div>
+            <div class="container">
+                <div class="row min-vh-100">
+                    <div class="home-text" data-aos="fade-up" data-aos-duration="2000">
+                        <h1>HotFood Restaurant</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi unde quia laudantium totam. Optio mollitia culpa animi quis quos fuga, ex magnam possimus iusto tenetur pariatur ullam numquam provident excepturi.
+                        </p>
+                        <a href="#our-menu" class="btn btn-default">our menu</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section home end -->
+
+        <!--about section start-->
+        <section class="about-section min-vh-100  sect-padding" id="about">
+
+            <div class="container">
+                <div class=" min-vh-100">
+                    <div class="section-text">
+                        <h2 data-title='our story'>about us</h2>
+                    </div>
+                    <div class="row">
+                        <div class="about-text" data-aos="fade-right">
+                            <h3>welcome to HotFood Restaurant </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem incidunt minus fuga explicabo soluta quo ipsa eaque facere reiciendis tempore accusamus aliquid reprehenderit temporibus nulla at, architecto in quasi? Alias.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem incidunt minus fuga explicabo soluta quo ipsa eaque facere reiciendis tempore accusamus aliquid reprehenderit temporibus nulla at, architecto in quasi? Alias.</p>
+
+                            <a href="#our-menu" class="btn btn-default">check our menu</a>
+                        </div>
+                        <div class="about-img" data-aos="fade-left" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="img-box">
+                                <h4>10+ years experience</h4>
+                                <div class="slider" id="slider">
+                                    <div class="slider-section">
+                                        <img src="./img/hero2.jpg" alt="img about">
+                                    </div>
+                                    <div class="slider-section">
+                                        <img src="./img/especial/especial1.jpg" alt="img about">
+                                    </div>
+
+                                    <div class="slider-section">
+                                        <img src="./img/about1.jpg" alt="img about">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--about section end-->
+
+        <!--Our Menu section start-->
+        <section class="menu-section min-vh-100  sect-padding" id="our-menu">
+            <div class="container">
+                <div class="min-vh-1000">
+                    <div class="section-text">
+                        <h2 data-title='Order Menu'>Our Menu</h2>
+                    </div>
+                    <div class="row">
+                        <div class="btn-menu-tabs" data-aos-easing="ease-rigth" data-aos-duration="1000">
+                            <button type="button" class="btn-menu-tab active" data-target="#lunch">lunch</button>
+                            <button type="button" class="btn-menu-tab" data-target="#dinner">dinner</button>
+                            <button type="button" class="btn-menu-tab" data-target="#drinks">drinks</button>
+                            <button type="button" class="btn-menu-tab" data-target="#desserts">desserts</button>
+                        </div>
+                    </div>
+
+                    <div class="colum menu-tab-conten active" id="lunch">
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/lunch/lunch1.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu lunch</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/lunch/lunch2.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu lunch</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/lunch/lunch3.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu lunch</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/lunch/lunch4.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu lunch</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colum menu-tab-conten" id="dinner">
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/dinner/dinner1.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu dinner</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/dinner/dinner2.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu dinner</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/dinner/dinner3.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu dinner</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/dinner/dinner4.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu dinner</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/dinner/dinner5.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu dinner</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/dinner/dinner6.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu dinner</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/dinner/dinner7.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu dinner</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/dinner/dinner8.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu dinner</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colum menu-tab-conten" id="drinks">
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/drinks/drink1.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>drinks</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/drinks/drink2.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>drinks</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/drinks/drink3.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>drinks</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/drinks/drink4.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>drinks</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/drinks/drink5.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>drinks</h3>
+                                        <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/drinks/drink6.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>drinks</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/drinks/drink7.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>drinks</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/drinks/drink8.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>drinks</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="colum menu-tab-conten" id="desserts">
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/desserts/desserts1.jpg" alt=" menu iten lunch ">
+                                </div>
+                                <div class="menu-text ">
+                                    <h3>menu desserts</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item " data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title ">
+                                    <img src="./img/desserts/desserts2.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu desserts</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/desserts/desserts3.jpg" alt=" menu iten lunch ">
+                                </div>
+                                <div class="menu-text ">
+                                    <h3>menu desserts</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item " data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title ">
+                                    <img src="./img/desserts/desserts4.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu desserts</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="zoom-in-left" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title">
+                                    <img src="./img/desserts/desserts5.jpg" alt=" menu iten lunch ">
+                                </div>
+                                <div class="menu-text ">
+                                    <h3>menu desserts</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item " data-aos="zoom-in-right" data-aos-duration="1000">
+                            <div class="menu-conten">
+                                <div class="menu-item-title ">
+                                    <img src="./img/desserts/desserts6.jpg" alt="menu iten lunch">
+                                </div>
+                                <div class="menu-text">
+                                    <h3>menu desserts</h3>
+                                    <p>price: $ <span>500</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Our Menu  section end-->
+
+        <!--Testimonials Menu section start-->
+        <section class="testimonial-section min-vh-100 sect-padding" id="testimonials">
+            <div class="container">
+                <div class=" min-vh-1000">
+                    <div class="section-text">
+                        <h2 data-title='Testimonials'>Testimonials</h2>
+                    </div>
+                    <div class="colum-testi">
+                        <div class="testi-item" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="testi-author">
+                                <div class="testi-author-name">
+                                    <h3>Roberto Luciano</h3>
+                                    <span>Ingenier</span>
+                                </div>
+                                <div class="testi-author-img">
+                                    <img src="img/person/person1.jpg" alt="">
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque temporibus aperiam non sequi suscipit.</p>
+                            <div class="testi-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testi-item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="testi-author">
+                                <div class="testi-author-name">
+                                    <h3>Angel Feliz</h3>
+                                    <span>Ingenier </span>
+                                </div>
+                                <div class="testi-author-img">
+                                    <img src="img/person/person2.jpg" alt="">
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque temporibus aperiam non sequi suscipit.</p>
+                            <div class="testi-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testi-item" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="testi-author">
+                                <div class="testi-author-name">
+                                    <h3>Predro Jimenez</h3>
+                                    <span>Ingenier</span>
+                                </div>
+                                <div class="testi-author-img">
+                                    <img src="img/person/person3.jpg" alt="">
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque temporibus aperiam non sequi suscipit.</p>
+                            <div class="testi-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        <!--Testimonials section end-->
+
+        <!--Team Menu section start-->
+        <section class="team-section min-vh-100 sect-padding" id="team">
+            <div class="container">
+                <div class=" min-vh-1000">
+                    <div class="section-text">
+                        <h2 data-title='Team'>Team</h2>
+                    </div>
+                    <div class="row colum-team">
+                        <div class="team-item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                            <div class="tem-img">
+                                <img src="img/chef/chef1.jpg" alt="team img">
+                                <div class="team-info">
+                                    <h3>Harry Bill</h3>
+                                    <p>head chef</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="team-item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <div class="tem-img">
+                                <img src="img/chef/chef2.jpg" alt="team img">
+                                <div class="team-info">
+                                    <h3>Harry Bill</h3>
+                                    <p>head chef</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="team-item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                            <div class="tem-img">
+                                <img src="img/chef/chef3.jpg" alt="team img">
+                                <div class="team-info">
+                                    <h3>Harry Bill</h3>
+                                    <p>head chef</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--about section end-->
+    </main>
+
+    <!--Contact Us section start-->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-row container-footer">
+                <div class="footer-item">
+                    <div class="footer-text" data-aos="fade-up" data-aos-duration="1000">
+                        <h4>Our Location</h4>
+                        <p>santo domingo
+                            <span>mega centro</span>
+                        </p>
+                        <p>puerto plata
+                            <span>
+                                center
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-text" data-aos="fade-up" data-aos-duration="1000">
+                        <h4>openig hours</h4>
+                        <p>monday and saturday
+                            <span>8:00 Am - 10:00 Pm</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-item tree">
+                    <div class="footer-text" data-aos="fade-up" data-aos-duration="1000">
+                        <h4> our contact</h4>
+                        <p>ext: 809-556-45**</p>
+                        <p class="email">hotfood@gmail.com</p>
+                        <div class="footer-social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fas fa-at"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="developer-page">
+                <p>
+                    <i class="far fa-copyright"></i> 2021 - Designed by The DroofterWeb
+                </p>
+                <span>willy</span>
+
+            </div>
+        </div>
+    </footer>
+    <!--about section end-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
